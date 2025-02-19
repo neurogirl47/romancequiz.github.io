@@ -3,6 +3,24 @@ import sdk from '@farcaster/frame-sdk';
 
 export default function Demo() {
   const [isSDKLoaded, setIsSDKLoaded] = useState(false);
+  const [context, setContext] = useState<FrameContext>(any);
+
+ 
+
+  useEffect(() => {
+    const load = async () => {
+      setContext(await sdk.context);
+      sdk.actions.ready();
+    };
+    if (sdk && !isSDKLoaded) {
+      setIsSDKLoaded(true);
+      load();
+    }
+  }, [isSDKLoaded]);
+
+  if (!isSDKLoaded) {
+    return <div>Loading...</div>;
+  }
   
   const [quizData, setQuizData] = useState(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
