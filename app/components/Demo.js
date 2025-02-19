@@ -1,15 +1,11 @@
 import { useEffect, useState } from 'react';
-import sdk, { FrameContext } from '@farcaster/frame-sdk';
+import sdk from '@farcaster/frame-sdk';
 
 export default function Demo() {
   const [isSDKLoaded, setIsSDKLoaded] = useState(false);
-  const [setContext] = useState<FrameContext>(any);
-
  
-
   useEffect(() => {
     const load = async () => {
-      setContext(await sdk.context);
       sdk.actions.ready();
     };
     if (sdk && !isSDKLoaded) {
@@ -17,10 +13,6 @@ export default function Demo() {
       load();
     }
   }, [isSDKLoaded]);
-
-  if (!isSDKLoaded) {
-    return <div>Loading...</div>;
-  }
   
   const [quizData, setQuizData] = useState(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
