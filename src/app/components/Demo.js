@@ -70,12 +70,18 @@ export default function Demo() {
         <Head>
         <meta name="fc:frame" content='{
         "version": "1",
+        "imageUrl: "",
+        "button": { 
+        "title": "Take the Quiz",
+        "action": {
+        "type": "launch_frame",
         "name": "Romance vs Crypto",
-        "iconUrl": "./love_or_crypto.png",
+        "url": "https://romancequiz-github-io-hqoj.vercel.app/",
         "splashImageUrl": "./love_or_crypto.png",
-        "splashBackgroundColor": "#131313",
-        "homeUrl": "https://romancequiz-github-io-hqoj.vercel.app/"
-    }'/>
+        "splashBackgroundColor": "#131313"
+    },
+  },
+  }'/>
       </Head>
         <h1 style={styles.title}>Romance vs HODL Quiz</h1>
         <p style={styles.finalText}>
@@ -93,12 +99,18 @@ export default function Demo() {
       <Head>
         <meta name="fc:frame" content='{
         "version": "1",
+        "imageUrl: "",
+        "button": { 
+        "title": "Take the Quiz",
+        "action": {
+        "type": "launch_frame",
         "name": "Romance vs Crypto",
-        "iconUrl": "./love_or_crypto.png",
+        "url": "https://romancequiz-github-io-hqoj.vercel.app/",
         "splashImageUrl": "./love_or_crypto.png",
-        "splashBackgroundColor": "#131313",
-        "homeUrl": "https://romancequiz-github-io-hqoj.vercel.app/"
-    }'/>
+        "splashBackgroundColor": "#131313"
+    },
+  },
+  }'/>
       </Head>
       <h1 style={styles.title}>Romance vs HODL Quiz</h1>
       <p style={styles.description}>{quizData.shortDescription}</p>

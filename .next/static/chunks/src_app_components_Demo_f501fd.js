@@ -97,7 +97,7 @@ function Demo() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         name: "fc:frame",
-                        content: '{ "version": "1", "name": "Romance vs Crypto", "iconUrl": "./love_or_crypto.png", "splashImageUrl": "./love_or_crypto.png", "splashBackgroundColor": "#131313", "homeUrl": "https://romancequiz-github-io-hqoj.vercel.app/" }'
+                        content: '{ "version": "1", "imageUrl: "", "button": {  "title": "Take the Quiz", "action": { "type": "launch_frame", "name": "Romance vs Crypto", "url": "https://romancequiz-github-io-hqoj.vercel.app/", "splashImageUrl": "./love_or_crypto.png", "splashBackgroundColor": "#131313" }, }, }'
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Demo.js",
                         lineNumber: 71,
@@ -113,7 +113,7 @@ function Demo() {
                     children: "Romance vs HODL Quiz"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/Demo.js",
-                    lineNumber: 80,
+                    lineNumber: 86,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -125,7 +125,7 @@ function Demo() {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/Demo.js",
-                    lineNumber: 81,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, this)
             ]
@@ -143,15 +143,15 @@ function Demo() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                     name: "fc:frame",
-                    content: '{ "version": "1", "name": "Romance vs Crypto", "iconUrl": "./love_or_crypto.png", "splashImageUrl": "./love_or_crypto.png", "splashBackgroundColor": "#131313", "homeUrl": "https://romancequiz-github-io-hqoj.vercel.app/" }'
+                    content: '{ "version": "1", "imageUrl: "", "button": {  "title": "Take the Quiz", "action": { "type": "launch_frame", "name": "Romance vs Crypto", "url": "https://romancequiz-github-io-hqoj.vercel.app/", "splashImageUrl": "./love_or_crypto.png", "splashBackgroundColor": "#131313" }, }, }'
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/Demo.js",
-                    lineNumber: 94,
+                    lineNumber: 100,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Demo.js",
-                lineNumber: 93,
+                lineNumber: 99,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -159,7 +159,7 @@ function Demo() {
                 children: "Romance vs HODL Quiz"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Demo.js",
-                lineNumber: 103,
+                lineNumber: 115,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -167,7 +167,7 @@ function Demo() {
                 children: quizData.shortDescription
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Demo.js",
-                lineNumber: 104,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -183,7 +183,7 @@ function Demo() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Demo.js",
-                        lineNumber: 106,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -191,7 +191,7 @@ function Demo() {
                         children: questionObj.question
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Demo.js",
-                        lineNumber: 109,
+                        lineNumber: 121,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -202,24 +202,24 @@ function Demo() {
                                 children: answer
                             }, index, false, {
                                 fileName: "[project]/src/app/components/Demo.js",
-                                lineNumber: 112,
+                                lineNumber: 124,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Demo.js",
-                        lineNumber: 110,
+                        lineNumber: 122,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/Demo.js",
-                lineNumber: 105,
+                lineNumber: 117,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/Demo.js",
-        lineNumber: 92,
+        lineNumber: 98,
         columnNumber: 5
     }, this);
 }
