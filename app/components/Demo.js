@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import sdk from '@farcaster/frame-sdk';
+import sdk, { FrameContext } from '@farcaster/frame-sdk';
 
 export default function Demo() {
   const [isSDKLoaded, setIsSDKLoaded] = useState(false);
