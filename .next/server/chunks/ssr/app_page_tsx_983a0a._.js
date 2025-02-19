@@ -14,11 +14,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const Demo = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(async ()=>{
-    typeof require.resolveWeak !== "undefined" && require.resolveWeak("./components/Demo");
+    typeof require.resolveWeak !== "undefined" && require.resolveWeak("../src/app/components/Demo");
 }, {
     loadableGenerated: {
         modules: [
-            "app/page.tsx -> " + "./components/Demo"
+            "app/page.tsx -> " + "../src/app/components/Demo"
         ]
     },
     ssr: false

@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/udochiokeke/Documents/GitHub/romancequiz.github.io/app/page.tsx"],"sourcesContent":["'use client';\n\nimport dynamic from 'next/dynamic';\n\nconst Demo = dynamic(() => import('./components/Demo'), {\n  ssr: false,\n});\n\nexport default function Home() {\n  return (\n    <main className=\"min-h-screen flex flex-col p-4\">\n      <Demo />\n    </main>\n  );\n}"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIA,MAAM,OAAO,CAAA,GAAA,+JAAA,CAAA,UAAO,AAAD;;;;;;;;IACjB,KAAK;;AAGQ,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;;;;;;;;;;AAGP"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/udochiokeke/Documents/GitHub/romancequiz.github.io/app/page.tsx"],"sourcesContent":["'use client';\n\nimport dynamic from 'next/dynamic';\n\nconst Demo = dynamic(() => import('../src/app/components/Demo'), {\n  ssr: false,\n});\n\nexport default function Home() {\n  return (\n    <main className=\"min-h-screen flex flex-col p-4\">\n      <Demo />\n    </main>\n  );\n}"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIA,MAAM,OAAO,CAAA,GAAA,+JAAA,CAAA,UAAO,AAAD;;;;;;;;IACjB,KAAK;;AAGQ,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;;;;;;;;;;AAGP"}},
     {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }
