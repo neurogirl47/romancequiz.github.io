@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/udochiokeke/Documents/GitHub/romancequiz.github.io/romance-vs-crypto/app/providers.tsx"],"sourcesContent":["'use client';\n\nimport dynamic from 'next/dynamic';\n\nconst WagmiProvider = dynamic(\n  () => import('../components/providers/WagmiProvider'),\n  {\n    ssr: false,\n  }\n);\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return <WagmiProvider>{children}</WagmiProvider>;\n}"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIA,MAAM,gBAAgB,CAAA,GAAA,kKAAA,CAAA,UAAO,AAAD,EAC1B;;;;;;IAEE,KAAK;;KAHH;AAOC,SAAS,UAAU,EAAE,QAAQ,EAAiC;IACnE,qBAAO,6LAAC;kBAAe;;;;;;AACzB;MAFgB"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
