@@ -1,0 +1,106 @@
+{
+    "shortDescription": "Find out if you're ready for romance or should hodl crypto",
+    "questions": [
+      {
+        "question": "How do you show love?",
+        "answers": ["NFT", "Gift", "Hug"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What is your Friday plan?",
+        "answers": ["Charting", "Netflix", "Dinner"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Favorite sign of affection?",
+        "answers": ["BTCtip", "Rose", "Kiss"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Best gift for Valentine?",
+        "answers": ["Airdrop", "Dinner", "Card"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What's your priority at midnight?",
+        "answers": ["StakeETH", "Cuddle", "Sleep"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Preferred sweet treat?",
+        "answers": ["ICOtoken", "Cake", "Candy"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Where do you invest time?",
+        "answers": ["Discord", "Family", "Date"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What do you admire most?",
+        "answers": ["DevsDAO", "Beauty", "Kindness"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Your reaction to heartbreak?",
+        "answers": ["BuyDip", "Write", "Cry"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Best way to celebrate?",
+        "answers": ["MintNFT", "Toast", "Dance"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What’s more important?",
+        "answers": ["APYfarm", "Respect", "Trust"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What's your dream date?",
+        "answers": ["MetaLand", "Picnic", "Beach"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which ring do you adore?",
+        "answers": ["SeedKey", "Silver", "Gold"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Best place for a proposal?",
+        "answers": ["Mainnet", "Garden", "Paris"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Fave daily routine?",
+        "answers": ["Trading", "Reading", "Workout"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Biggest ambition?",
+        "answers": ["100xGain", "Travel", "Family"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What lifts your mood?",
+        "answers": ["BullRun", "Hugs", "Music"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Your favorite pair?",
+        "answers": ["BTC/ETH", "Couple", "Heels"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Best activity for two?",
+        "answers": ["CodeJam", "Tango", "Movie"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Where do you see yourself?",
+        "answers": ["Moonshot", "Single", "Married"],
+        "correctAnswerIndex": 0
+      }
+    ]
+  }
+  
