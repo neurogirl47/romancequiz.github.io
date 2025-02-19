@@ -1,0 +1,18 @@
+{
+    "accountAssociation": {
+      "header": "eyJmaWQiOjk5NDQ1OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDYwNDdBNTVjYmY5NWRDYWQxRDg4OUVGRTY4NmJCMWVhOEU0OTRlOTgifQ",
+      "payload": "eyJkb21haW4iOiJyb21hbmNlcXVpei1naXRodWItaW8taHFvai52ZXJjZWwuYXBwIn0",
+      "signature": "MHgyNjJlZjEyNDljNDhiODIwYjQ4ZmFlNTczM2RmM2Q4Y2NkOTU5Yzg3YTM4ODY0MWQ4MTQzOTUxNDk3ZjBlODFkMzAzNmQzOWFjYjMyYWNjOGZkNzcwYWQzZWE3Y2ZiNDQ4NGI0ZmQwZjI4NDYzNzhkNDY5ZjE5ZDMwM2VmZmU5ODFi"
+    },
+    "frame": {
+      "version": "1",
+      "name": "Love versus Crypto",
+      "iconUrl": "https://romancequiz-github-io-hqoj.vercel.app/icon.png",
+      "homeUrl": "https://romancequiz-github-io-hqoj.vercel.app",
+      "imageUrl": "https://romancequiz-github-io-hqoj.vercel.app/image.png",
+      "buttonTitle": "Take the test",
+      "splashImageUrl": "https://romancequiz-github-io-hqoj.vercel.app/icon.png",
+      "splashBackgroundColor": "#eeccff",
+      "webhookUrl": "https://romancequiz-github-io-hqoj.vercel.app/api/webhook"
+    }
+  }

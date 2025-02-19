@@ -6,7 +6,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 {
 __turbopack_export_value__((__turbopack_import__) => {
     return Promise.all([
-  "static/chunks/node_modules_84389b._.js",
+  "static/chunks/node_modules_c21a64._.js",
   "static/chunks/src_app_components_Demo_f501fd.js",
   "static/chunks/src_app_components_Demo_2ab53d.js"
 ].map((chunk) => __turbopack_load__(chunk))).then(() => {

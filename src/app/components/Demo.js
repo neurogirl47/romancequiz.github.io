@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import sdk from '@farcaster/frame-sdk';
+import Head from 'next/head';
 
 export default function Demo() {
   const [isSDKLoaded, setIsSDKLoaded] = useState(false);
@@ -66,6 +67,16 @@ export default function Demo() {
 
     return (
       <div style={styles.container}>
+        <Head>
+        <meta name="fc:frame" content='{
+        "version": "1",
+        "name": "Romance vs Crypto",
+        "iconUrl": "./love_or_crypto.png",
+        "splashImageUrl": "./love_or_crypto.png",
+        "splashBackgroundColor": "#131313",
+        "homeUrl": "https://romancequiz-github-io-hqoj.vercel.app/"
+    }'/>
+      </Head>
         <h1 style={styles.title}>Romance vs HODL Quiz</h1>
         <p style={styles.finalText}>
           You are {scorePercentage}% unworthy to be in a relationship.
@@ -79,6 +90,16 @@ export default function Demo() {
 
   return (
     <div style={styles.container}>
+      <Head>
+        <meta name="fc:frame" content='{
+        "version": "1",
+        "name": "Romance vs Crypto",
+        "iconUrl": "./love_or_crypto.png",
+        "splashImageUrl": "./love_or_crypto.png",
+        "splashBackgroundColor": "#131313",
+        "homeUrl": "https://romancequiz-github-io-hqoj.vercel.app/"
+    }'/>
+      </Head>
       <h1 style={styles.title}>Romance vs HODL Quiz</h1>
       <p style={styles.description}>{quizData.shortDescription}</p>
       <div style={styles.questionCard}>
