@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Romance or HODL Quiz</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    h1, h2 {
+      margin-bottom: 0.4em;
+    }
+    .question-container {
+      margin: 1em 0;
+      border: 1px solid #ccc;
+      padding: 1em;
+    }
+    .answers {
+      list-style: none;
+      padding-left: 0;
+    }
+    .answers li {
+      margin: 0.5em 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Romance or HODL Quiz</h1>
+  <p id="description">Loading quiz...</p>
+  <div id="quiz"></div>
+
+  <script>
+    // You can embed the JSON directly into the script if hosting is not an option:
+    // const quizData = { ...the quiz JSON... };
+
+    // OR fetch from a static file or API endpoint:
+    fetch('https://dappykit-farcaster-romancevscrypto.vercel.app/api')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('description').innerText = data.shortDescription;
+
+        const quizContainer = document.getElementById('quiz');
+        data.questions.forEach((q, index) => {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'question-container';
+
+          // Question text
+          const questionEl = document.createElement('h2');
+          questionEl.textContent = `Q${index + 1}: ${q.question}`;
+          wrapper.appendChild(questionEl);
+
+          // Answers
+          const answersList = document.createElement('ul');
+          answersList.className = 'answers';
+
+          q.answers.forEach((ans, ansIdx) => {
+            const li = document.createElement('li');
+            // We'll just display them; if you want to show correct answer, you can:
+            // (ansIdx === q.correctAnswerIndex) ? highlight it, etc.
+            li.innerText = ans;
+            answersList.appendChild(li);
+          });
+
+          wrapper.appendChild(answersList);
+          quizContainer.appendChild(wrapper);
+        });
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById('description').innerText = 'Failed to load quiz.';
+      });
+  </script>
+</body>
+</html>
