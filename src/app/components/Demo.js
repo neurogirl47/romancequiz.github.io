@@ -3,7 +3,7 @@ import sdk from '@farcaster/frame-sdk';
 
 export default function Demo() {
   const [isSDKLoaded, setIsSDKLoaded] = useState(false);
-  const [context, setContext] = useState<FrameContext>();
+  const [context, setContext] = useState<FrameContext>(any);
 
  
 
